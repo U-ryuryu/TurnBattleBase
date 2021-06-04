@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 100
-  at: 5
+  at: 7
 --- !u!4 &1650997243
 Transform:
   m_ObjectHideFlags: 0
