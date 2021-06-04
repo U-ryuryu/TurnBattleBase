@@ -5,15 +5,12 @@ using UnityEngine;
 // 戦闘を管理
 public class BattleManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public UnitManager player;
+    public UnitManager enemy;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        player.Attack(enemy);
+        enemy.Attack(player);
     }
 }
